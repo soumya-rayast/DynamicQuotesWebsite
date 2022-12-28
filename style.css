@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(26, 21, 21);
+    display: flex;
+    justify-content: center;
+    font-family: 'Sevillana';
+}
+.container{
+    margin-top: 100px;
+    background-color: rgb(50, 117, 219);
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container .box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    position: relative;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow:  0.3rem 1rem 1rem rgb(50, 49, 49);
+}
+.container .box .upper{
+    width: 100%;
+    height: 440px;
+}
+.container .box .upper .twit{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+.twit i{
+    padding: 18px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(50, 117, 219);   
+} 
+.container .box .upper .contents{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+.container .box .upper .contents i{
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+    font-size: 60px;
+    color: rgb(117, 116, 116);
+    cursor: none;
+}
+.quotes{
+    width: 100%;
+    height: 200px;
+}
+.quotes p{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(81, 79, 79);
+}
+.author{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.author h2{
+    text-align: right;
+    padding-right: 28px;
+    color: rgb(81, 79, 79);
+
+}
+.container .box .bottom{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(50, 117, 219);
+    border-radius: 0px 0px 19.5px 19.5px;
+}
+.container .box .bottom h2{
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+@media screen and (min-width:375px) {
+    .container{
+        margin-top: 50px;
+        position: relative;
+        width: 300px;
+        height: 500px;
+    }
+    .container .box{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 290px;
+        height: 440px;
+    }
+    .container .box .upper{
+        width: 100%;
+        height: 380px;
+    }
+    .container .box .upper .twit{
+        height: 40px;
+    }
+    .twit i{
+        padding: 10px;
+        font-size: 25px;
+    } 
+    .container .box .upper .contents{
+        width: 100%;
+        height: 400px;
+    }
+    .container .box .upper .contents i{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+         font-size: 60px;
+         color: rgb(117, 116, 116);
+         cursor: none;
+     }
+     .quotes{
+         width: 100%;
+         height: 100px;
+     }
+     .quotes p{
+         padding-top: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         font-size: 25px;
+         color: rgb(81, 79, 79);
+     }
+     .author h2{
+         text-align: right;
+         padding-right: 18px;
+         color: rgb(81, 79, 79);
+     
+     }
+     .container .box .bottom{
+         width: 100%;
+         height: 50px;
+     }
+     .container .box .bottom h2{
+         padding-top: 10px;
+         text-align: center;
+     }
+    
+}
+@media screen and (min-width:375px) {
+    .container{
+        margin-top: 50px;
+        position: relative;
+        width: 500px;
+        height: 600px;
+    }
+    .container .box{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 450px;
+        height: 560px;
+    }
+    .container .box .upper{
+        width: 100%;
+        height: 480px;
+    }
+    .container .box .upper .twit{
+        height: 50px;
+    }
+    .twit i{
+        padding: 10px;
+        font-size: 35px;
+    } 
+    .container .box .upper .contents{
+        width: 100%;
+        height: 450px;
+    }
+    .container .box .upper .contents i{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+         font-size: 60px;
+         color: rgb(117, 116, 116);
+         cursor: none;
+     }
+     .quotes{
+         width: 100%;
+         height: 150px;
+     }
+     .quotes p{
+         padding-top: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         font-size: 25px;
+         color: rgb(81, 79, 79);
+     }
+     .author h2{
+         text-align: right;
+         padding-right: 20px;
+         color: rgb(81, 79, 79);
+     
+     }
+     .container .box .bottom{
+         width: 100%;
+         height: 60px;
+     }
+     .container .box .bottom h2{
+         padding-top: 10px;
+         text-align: center;
+     }
+    
+}
